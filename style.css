@@ -1,0 +1,40 @@
+/*body{
+    font: size 16px;
+    color:cadetblue;
+    background-image: url(bg\bg.jpg);
+    font-family: 'Oxygen', sans-serif;
+}*/
+body{
+    background-image: url(gr.jpg);
+     background-repeat: no-repeat;
+     background-size:cover;
+     background-position:center;
+     background-attachment: fixed;
+    color:white;
+}
+.card{
+    font-size: 0.8em;
+    border-radius:2rem;
+    border:6px solid transparent;
+    backdrop-filter: blur(0.7rem);
+    box-shadow: 0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 0.5);
+}
+.cb1{
+    border: 6px solid;
+    border-style:groove;
+    background-color:rgba(225, 225, 225, 0.1);
+}
+.cb2{
+    border:6px solid;
+    border-style:ridge;
+    background: linear-gradient(to right bottom,rgba(225, 225, 225, 0.5),rgba(49, 41, 41, 0.5));
+}
+.table{
+    
+    font-size: xx-large;
+    color: rgb(245, 223, 223);
+    backdrop-filter: blur(0.9rem);
+}
+.card-header{
+    font-size: xx-large;
+}
